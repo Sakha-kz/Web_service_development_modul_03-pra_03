@@ -1,4 +1,6 @@
 ## Здравствуйте задачу решил Сахтай Е.Н. 060513550118
+<img width="1794" height="542" alt="image" src="https://github.com/user-attachments/assets/d201e999-0266-4257-a4e0-58b8bf6aa645" />
+
 
 # Практическая работа 03: Внедрение зависимостей (Dependency Injection) и Логирование
 
