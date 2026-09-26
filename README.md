@@ -254,37 +254,17 @@ builder.Services.AddScoped<IProductService, ProductService>();
 
 ### Команды для запуска
 
-1. Клонировать репозиторий:
-   ```bash
-   git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>
-   cd Web_service_development_modul_03-pra_03
-   ```
-
-2. Собрать проект:
+1. Собрать проект:
    ```bash
    dotnet build
    ```
 
-3. Запустить API:
+2. Запустить API:
    ```bash
    dotnet run --project src/ProductsApi/ProductsApi.csproj
    ```
 
-4. Открыть в браузере Swagger UI:
+3. Открыть в браузере Swagger UI:
    - **Swagger UI:** [http://localhost:5000/swagger](http://localhost:5000/swagger)
    - **Список товаров:** [http://localhost:5000/api/products](http://localhost:5000/api/products)
    - **Товар по ID:** [http://localhost:5000/api/products/1](http://localhost:5000/api/products/1)
-
----
-
-## Инструкция по отправке в GitHub
-
-Если вы хотите отправить этот проект в свой репозиторий на GitHub:
-
-1. Создайте новый пустой репозиторий на GitHub (например, `Web_service_development_modul_03-pra_03`).
-2. В терминале в корневой папке проекта выполните:
-   ```bash
-   git remote add origin https://github.com/<ВАШ_ЛОГИН>/<ИМЯ_РЕПОЗИТОРИЯ>.git
-   git branch -M main
-   git push -u origin main
-   ```
